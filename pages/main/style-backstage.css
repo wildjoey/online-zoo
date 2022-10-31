@@ -1,0 +1,54 @@
+.block-backstage {
+  position: relative;
+}
+
+.block-backstage::after {
+  content: '';
+  width: 204px;
+  height: 605px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  z-index: -2;
+  background: url(../../assets/images/backstage1.jpg) 0 50% no-repeat;
+}
+
+.block-backstage .wrapper {
+  display: flex;
+  padding-top: 140px;
+  justify-content: space-between;
+}
+
+.container-image-backstage {
+  width: 609px;
+  height: 403px;
+  background: url(../../assets/images/backstage2.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.block-backstage article {
+  flex: 1;
+  padding-left: 87px;
+  color: #333b41;
+}
+
+.block-backstage h2 {
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-bottom: 20px;
+}
+
+.block-backstage h3 {
+  margin: 54px 0 34px;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 120%;
+}
+
+.block-backstage p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+}

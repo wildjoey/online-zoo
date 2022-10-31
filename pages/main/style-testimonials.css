@@ -1,0 +1,57 @@
+/* testinomils */
+.testimonial {
+  height: 306px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.testimonial p {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 120%;
+}
+
+.testimonial-slider {
+  margin-bottom: 25px;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.input-testimonial-slider {
+  position: relative;
+  -webkit-appearance: none;
+  width: 599px;
+  background: linear-gradient(315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%),
+    linear-gradient(315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%);
+  height: 8px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.input-testimonial-slider::-webkit-slider-runnable-track {
+  background-color: #f5f7f6;
+  height: 6px;
+  border-radius: 5px;
+  margin: 0 1px;
+}
+
+.input-testimonial-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #fe9013;
+  width: 12.5%;
+  height: 6px;
+  border-radius: 5px;
+  border: none;
+}
