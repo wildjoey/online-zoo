@@ -168,3 +168,25 @@
   margin: 0 auto;
   display: block;
 }
+
+.block-pets::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 292px;
+  height: 460px;
+  background: url(../../assets/images/pets_left_grass.jpg);
+}
+
+.block-pets::after {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  content: '';
+  width: 368px;
+  height: 275px;
+  background: url(../../assets/images/pets_right_grass.jpg);
+}
