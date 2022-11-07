@@ -2,9 +2,191 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Donate Page</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Donate</title>
+        <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon.ico">
     </head>
     <body>
-        <p>Donate page works</p>
+        <header>
+            <div class="wrapper">
+                <h1 class="logo">
+                    <a href="../main/index.html">PetStory Online</a>
+                </h1>
+                <div class="menu">
+                    <nav class="body_menu">
+                        <ul>
+                            <li>
+                                <a class="item_interactive" href="../main/index.html">About</a>
+                            </li>
+                            <li>
+                                <a href="../main/map.html">Map</a>
+                            </li>
+                            <li>
+                                <a href="..//main/zoo.html">Zoos</a>
+                            </li>
+                            <li>
+                                <a href="#">Donate</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/wildjoey">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks">
+                                    Designed by
+                                    <span>&copy;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="block_watch">
+            <div class="wrapper"></div>
+        </section>
+        <section class="block_donate">
+            <div class="wrapper">
+                <div class="info_donate">
+                    <h3>THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+                    <p>
+                        Even though the Zoo has been able to reopen, we are at a greatly
+                  reduced capacity with educational programs and public and private
+                  events cancelled or postponed for additional months. We need you now
+                  more than ever to help ensure that we overcome these challenges. We
+                  have been actively raising funds in the community, and we are
+                  grateful for the generosity. But much more support is still needed,
+                  and we need your help! Please consider a gift today – no matter what
+                  size – to help us sustain fsvsfv
+                    </p>
+                </div>
+                <h3>Donation information</h3>
+                <div class="choose_donate">
+                    <h2>Pick and feed a friend</h2>
+                    <p>
+                        We know the animals bring you joy, and in these extraordinary times,
+                  we’re glad.
+                    </p>
+                    <div class="diet">
+                        <div>
+                            <span>4</span>
+                            <span>Panda diet for the day.</span>
+                        </div>
+                        <div>
+                            <img alt="panda" src="../../assets/images/diet.svg" alt="panda">
+                        </div>
+                    </div>
+                    <form class="donation_value">
+                        <p>Amount</p>
+                        <fieldset class="select-your-amount">
+                            <label donation_amount="$5000"></label>
+                            <label donation_amount="$2000"></label>
+                            <label donation_amount="$1000" class="selected_amount">
+                                <span></span>
+                            </label>
+                            <label donation_amount="$500"></label>
+                            <label donation_amount="$250"></label>
+                            <label donation_amount="$100"></label>
+                            <label donation_amount="$50"></label>
+                            <label donation_amount="$25"></label>
+                        </fieldset>
+                        <div>
+                            <label>
+                                <input class="custom_price" editable="false" placeholder="Another аmount">
+                            </label>
+                        </div>
+                        <div class="period">
+                            <input id="month" type="radio" name="period">
+                            <label for="month"></label>
+                            <span>Monthly</span>
+                            <input
+                                type="radio"
+                                id="once"
+                                checked
+                                name="period"
+                            >
+                            <label for="once"></label>
+                            <span>Once</span>
+                        </div>
+                        <button class="feed_button button_color_default">
+                            FEED A FRIEND NOW
+                        </button>
+                        <p>Share with your friends on social networks</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer-subfooter1">
+                    <div class="logo">
+                        <a href="../main/index.html">
+                            PetStory
+                            <span>online</span>
+                        </a>
+                    </div>
+                    <form class="subscribe" action="#">
+                        <h4>Subscribe to our news</h4>
+                        <input
+                            class="email"
+                            required
+                            type="email"
+                            placeholder="Enter your email"
+                        >
+                        <button type="submit" class="submit_button submit_button_color_default">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+                <div class="footer-subfooter2">
+                    <a href="../donate/index.html" class="donate_button button_color_default">
+                        DONATE
+                    </a>
+                </div>
+                <div class="footer-subfooter3">
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/">
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.twitter.com/">
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/">
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/">
+                                    <span>YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="footer_menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="item_interactive">About</a>
+                            </li>
+                            <li>
+                                <a href="map.html">Map</a>
+                            </li>
+                            <li>
+                                <a href="zoo.html">Zoos</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/wildjoey">Contact us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
